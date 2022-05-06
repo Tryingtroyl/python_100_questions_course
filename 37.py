@@ -1,3 +1,3 @@
-with open("words2.txt",'r') as file:
+with open("files/words2.txt",'r') as file:
     str=file.read()
     print(len(list(str.replace(',', ' ').split(' '))))
